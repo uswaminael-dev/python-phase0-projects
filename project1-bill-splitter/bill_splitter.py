@@ -17,7 +17,7 @@ def get_percentage(prompt):
     while True:
         try:
             value = float(input(prompt))    # Get a percentage value from the user
-            if 0 <= value <= 100:
+            if 0 <= value <= 150:
                 return value
             else:
                 print("Please enter a percentage between 0 and 100.")
